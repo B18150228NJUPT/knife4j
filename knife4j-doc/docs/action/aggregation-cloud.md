@@ -30,7 +30,7 @@ Cloud(云端)模式和[Disk模式](aggregation-disk)大同小异，主要的区�
         <version>2.4.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>io.github.b18150228njupt</groupId>
     <artifactId>knife4j-aggregation-disk-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>knife4j-aggregation-disk-demo</name>
@@ -47,7 +47,7 @@ Cloud(云端)模式和[Disk模式](aggregation-disk)大同小异，主要的区�
         </dependency>
 
         <dependency>
-            <groupId>com.github.xiaoymin</groupId>
+            <groupId>io.github.b18150228njupt</groupId>
             <artifactId>knife4j-aggregation-spring-boot-starter</artifactId>
             <version>2.0.8</version>
         </dependency>

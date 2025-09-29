@@ -68,7 +68,7 @@ swagger-bootstrap-ui的所有特性都会集中在`knife4j-spring-ui`包中,并�
 
 ```
 <dependency>
-   <groupId>com.github.xiaoymin</groupId>
+   <groupId>io.github.b18150228njupt</groupId>
    <artifactId>swagger-bootstrap-ui</artifactId>
    <version>1.9.6</version>
 </dependency>

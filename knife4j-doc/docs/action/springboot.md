@@ -15,7 +15,7 @@
         <version>2.3.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>io.github.b18150228njupt</groupId>
     <artifactId>knife4j-spring-boot-fast-demo</artifactId>
     <version>1.0</version>
     <name>knife4j-spring-boot-fast-demo</name>
@@ -31,7 +31,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.github.xiaoymin</groupId>
+            <groupId>io.github.b18150228njupt</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>
             <version>2.0.9</version>
         </dependency>
@@ -66,7 +66,7 @@
 第一步：在maven项目的`pom.xml`中引入Knife4j的依赖包，代码如下：
 ```xml
 <dependency>
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>io.github.b18150228njupt</groupId>
     <artifactId>knife4j-spring-boot-starter</artifactId>
     <version>2.0.9</version>
 </dependency>

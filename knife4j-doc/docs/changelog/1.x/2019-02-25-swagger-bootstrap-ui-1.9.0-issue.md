@@ -55,7 +55,7 @@ SwaggerBootstrapUi 1.9.0 发布了。SwaggerBootstrapUi是 Swagger 的增强UI �
 
 ```
 <dependency>
-   <groupId>com.github.xiaoymin</groupId>
+   <groupId>io.github.b18150228njupt</groupId>
    <artifactId>swagger-bootstrap-ui</artifactId>
    <version>1.9.0</version>
 </dependency>

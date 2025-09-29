@@ -23,7 +23,7 @@ Knife4j一直致力于将目前的Ui提供给更多的平台或者别的语言�
 基于Spring Boot引入方式
 ```xml
  <dependency>
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>io.github.b18150228njupt</groupId>
     <artifactId>knife4j-aggregation-spring-boot-starter</artifactId>
     <!--在引用时请在maven中央仓库搜索aggregation最新版本号-->
     <version>2.0.8</version>

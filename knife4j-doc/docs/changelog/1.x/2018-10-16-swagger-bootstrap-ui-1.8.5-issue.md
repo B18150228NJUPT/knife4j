@@ -96,7 +96,7 @@ c、所以排序的取值规则是：position>@ApiOperationSort
 
 ```
 <dependency>
-   <groupId>com.github.xiaoymin</groupId>
+   <groupId>io.github.b18150228njupt</groupId>
    <artifactId>swagger-bootstrap-ui</artifactId>
    <version>1.8.5</version>
 </dependency>

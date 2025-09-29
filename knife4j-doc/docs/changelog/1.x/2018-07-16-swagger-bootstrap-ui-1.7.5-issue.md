@@ -45,7 +45,7 @@ swagger-bootstrap-ui 1.7.5 主要更新如下：
 
 ```xml
 <dependency>
-   <groupId>com.github.xiaoymin</groupId>
+   <groupId>io.github.b18150228njupt</groupId>
    <artifactId>swagger-bootstrap-ui</artifactId>
    <version>1.7.5</version>
 </dependency>

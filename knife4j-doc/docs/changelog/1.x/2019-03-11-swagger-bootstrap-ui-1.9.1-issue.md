@@ -39,7 +39,7 @@ swagger-bootstrap-ui 1.9.1 发布了。swagger-bootstrap-ui是 Swagger 的增强
 
 ```
 <dependency>
-   <groupId>com.github.xiaoymin</groupId>
+   <groupId>io.github.b18150228njupt</groupId>
    <artifactId>swagger-bootstrap-ui</artifactId>
    <version>1.9.1</version>
 </dependency>

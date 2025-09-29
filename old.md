@@ -70,7 +70,7 @@
 
 ```xml
 <dependency>
-  <groupId>com.github.xiaoymin</groupId>
+  <groupId>io.github.b18150228njupt</groupId>
   <artifactId>swagger-bootstrap-ui</artifactId>
   <version>${lastVersion}</version>
 </dependency>

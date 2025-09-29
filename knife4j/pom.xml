@@ -3,9 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>io.github.b18150228njupt</groupId>
     <artifactId>knife4j</artifactId>
-    <version>4.6.0-SNAPSHOT</version>
+    <version>4.8.0</version>
     <modules>
         <module>knife4j-core</module>
         <module>knife4j-dependencies</module>
@@ -110,19 +110,19 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.github.xiaoymin</groupId>
+                <groupId>io.github.b18150228njupt</groupId>
                 <artifactId>knife4j-core</artifactId>
-                <version>4.6.0-SNAPSHOT</version>
+                <version>4.8.0</version>
             </dependency>
             <dependency>
-                <groupId>com.github.xiaoymin</groupId>
+                <groupId>io.github.b18150228njupt</groupId>
                 <artifactId>knife4j-openapi2-ui</artifactId>
-                <version>4.6.0-SNAPSHOT</version>
+                <version>4.8.0</version>
             </dependency>
             <dependency>
-                <groupId>com.github.xiaoymin</groupId>
+                <groupId>io.github.b18150228njupt</groupId>
                 <artifactId>knife4j-openapi3-ui</artifactId>
-                <version>4.6.0-SNAPSHOT</version>
+                <version>4.8.0</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
             <dependency>
@@ -442,6 +442,9 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
                         <version>1.6</version>
+                        <configuration>
+                            <executable>C:\Program Files (x86)\GnuPG\bin\gpg.exe</executable>
+                        </configuration>
                         <executions>
                             <execution>
                                 <phase>verify</phase>
@@ -450,6 +453,19 @@
                                 </goals>
                             </execution>
                         </executions>
+                    </plugin>
+<!--                    https://blog.csdn.net/weixin_43933728/article/details/147523391-->
+                    <plugin>
+                        <groupId>org.sonatype.central</groupId>
+                        <artifactId>central-publishing-maven-plugin</artifactId>
+                        <version>0.6.0</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <!-- settings.xml 配置的 servers.server.id -->
+                            <publishingServerId>central</publishingServerId>
+                            <!-- 自动推送 -->
+                            <autoPublish>true</autoPublish>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>

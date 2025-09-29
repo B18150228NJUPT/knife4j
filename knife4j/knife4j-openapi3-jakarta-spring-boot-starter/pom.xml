@@ -4,12 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.github.xiaoymin</groupId>
+        <groupId>io.github.b18150228njupt</groupId>
         <artifactId>knife4j</artifactId>
-        <version>4.6.0-SNAPSHOT</version>
+        <version>4.8.0</version>
     </parent>
 
     <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
+    <name>knife4j-openapi3-jakarta-spring-boot-starter</name>
 
     <properties>
         <knife4j-java.version>17</knife4j-java.version>
@@ -28,12 +29,12 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.github.xiaoymin</groupId>
+            <groupId>io.github.b18150228njupt</groupId>
             <artifactId>knife4j-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.github.xiaoymin</groupId>
+            <groupId>io.github.b18150228njupt</groupId>
             <artifactId>knife4j-openapi3-ui</artifactId>
             <version>${project.version}</version>
         </dependency>

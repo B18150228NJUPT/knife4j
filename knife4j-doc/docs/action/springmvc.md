@@ -16,13 +16,13 @@ demo参考示例地址：[knife4j-spring-mvc-demo](https://gitee.com/xiaoym/swag
 ```xml
 <!--引入Knife4j-->
 <dependency>
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>io.github.b18150228njupt</groupId>
     <artifactId>knife4j-spring</artifactId>
     <!--在引用时请在maven中央仓库搜索最新版本号-->
     <version>2.0.4</version>
 </dependency>
 <dependency>
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>io.github.b18150228njupt</groupId>
     <artifactId>knife4j-spring-ui</artifactId>
     <!--在引用时请在maven中央仓库搜索最新版本号-->
     <version>2.0.4</version>
@@ -36,7 +36,7 @@ demo参考示例地址：[knife4j-spring-mvc-demo](https://gitee.com/xiaoym/swag
 ```xml
 <!--引入Knife4j-->
 <dependency>
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>io.github.b18150228njupt</groupId>
     <artifactId>knife4j-spring-mvc</artifactId>
     <!--在引用时请在maven中央仓库搜索最新版本号，如果不存在则代表尚未发布,作者正在努力开发中-->
     <version>2.0.5</version>

@@ -44,7 +44,7 @@ swagger-bootstrap-ui 1.8.6 主要更新如下：
 
 ```
 <dependency>
-   <groupId>com.github.xiaoymin</groupId>
+   <groupId>io.github.b18150228njupt</groupId>
    <artifactId>swagger-bootstrap-ui</artifactId>
    <version>1.8.6</version>
 </dependency>

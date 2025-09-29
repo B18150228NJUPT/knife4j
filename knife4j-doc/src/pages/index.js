@@ -73,7 +73,7 @@ public class Knife4jConfiguration {
 
 const mavenDependency = `<!--引入Knife4j的官方start包,该指南选择Spring Boot版本<3.0,开发者需要注意-->
 <dependency>
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>io.github.b18150228njupt</groupId>
     <artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
     <version>4.4.0</version>
 </dependency>

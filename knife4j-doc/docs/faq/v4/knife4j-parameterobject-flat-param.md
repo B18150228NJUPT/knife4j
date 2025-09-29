@@ -81,7 +81,7 @@ springdoc:
 
 ```xml
 <dependency>
-			<groupId>com.github.xiaoymin</groupId>
+			<groupId>io.github.b18150228njupt</groupId>
 			<artifactId>knife4j-openapi3-spring-boot-starter</artifactId>
 			<version>4.0.0</version>
 			<!--排查低版本-->
